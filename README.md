@@ -14,8 +14,11 @@
 O *Viajei* será uma plataforma em que os usuários poderam, individualmente, compartilhar suas experiências , e também, recomendar para tantos outros usuários que usaram essa plataforma
 
 
-> ![IMPORTNT]
-> A plataforma **não** suporta múltiplos usuários. Isto não é uma rede sozial virtual. Para compartilhar suas peripécias, por favor, compartilhae o link da sua história
+> ![IMPORTANT]
+> A plataforma **não** suporta múltiplos usuários.
+> Isto não é uma rede sozial virtual. 
+> Para compartilhar suas peripécias,
+>por favor, compartilhae o link da sua história
 
 
 ## Tecnologia
@@ -38,4 +41,4 @@ O *Viajei* será uma plataforma em que os usuários poderam, individualmente, co
 ## Licença:
 
 
-Esse projeto é amparado pela lincença [MIT](./
+Esse projeto é amparado pela lincença [MIT] 
