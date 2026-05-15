@@ -38,4 +38,4 @@ O *Viajei* será uma plataforma em que os usuários poderam, individualmente, co
 ## Licença:
 
 
-Esse projeto é amparado pela lincença [MIT] 
+Esse projeto é amparado pela lincença [MIT] (./LICENSE)
