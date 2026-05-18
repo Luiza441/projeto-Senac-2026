@@ -1,0 +1,13 @@
+header {
+    heigh: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(136, 227, 255);
+    margin: 0 auto;
+}
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
