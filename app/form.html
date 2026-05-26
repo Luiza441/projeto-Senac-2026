@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
+
 <head>
-    toggle.
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajei: Sobre</title>
+    <link rel="stylesheet" href="./style/form.css">
+    <script src="./scripts/form.js" defer></script>
 </head>
+
 <body>
-     <form action="submit"
-     <label for action="usuario"> nome:</label>
-     <input type="text" id="usuario" name="nome"
+    <div id="container">
+        <header>
+            <img src="./images/logo.png"
+                alt="avião de papel estilizado no centro, voando em meio a uma nuvem branca com detalhes em azul claro. Ao redor, há linhas curvas azuis que dão sensação de movimento e velocidade, além de estrelas amarelas, raios e formas vermelhas que deixam o desenho mais divertido e dinâmico. O estilo é moderno e cartunesco, transmitindo criatividade, aventura, comunicação e liberdade — lembrando viagens, mensagens ou exploração de novos lugares." />
+            <div class="toggle"></div>
+            <a class="link-do-cabecalho" href="./index.html">Viajei</a>
+            <a class="link-do-cabecalho" href="./about.html">Sobre</a>
+            <a class="link-do-cabecalho" href="./form.html">Compartilhe sua experiência</a>
+        </header>
 
-     <label for="email">email</label>
-     <input type="email"> id="email" name="email"
+        <section>
+            <form id="post-form">
+                <label for="autor"> Autor: </label>
+                <input id="autor" type="text" name="autor" placeholder="Fulana de tal">
 
-     <label for="história">história</label>
-     <textarea name="história" id="história" cols="50" rows="100">
+                <label for="titulo"> Título da história: </label>
+                <input id="titulo" type="text" name="titulo" placeholder="Prank">
 
+                <label for="história"> História: </label>
+                <textarea id="historia" cols="50" rows="20" name="historia" placeholder="Que horas são? Garota eu não sei...">
+        </textarea>
 
-       </textarea>
-    </form>
+                <button type="submit"> Enviar </button>
+
+            </form>
+        </section>
+
+        <footer>
+            <div id="historia"></div>
+        </footer>
+    </div>
 </body>
+
 </html>
