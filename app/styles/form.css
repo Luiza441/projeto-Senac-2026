@@ -43,7 +43,22 @@ body {
     font-size: 20pt;
 }
 
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 49%;
+    height: 80%;
+}
 
+form textarea, form input{
+    width: 100%;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    border-color: 1px solid #110038;
+}
 @media (max-width: 600px) {
     /*Media query para ajustar o cabeçalho em aparelhos móveis */
 
@@ -102,7 +117,7 @@ body {
         height: 60px;
         width: 100%;
         margin: 0;
-        border-top: 1px solid #d4f8ff;
+        border-top: 1px solid #110038;
     }
 
     #container nav.active a:nth-of-type(1) {

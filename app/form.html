@@ -2,45 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viajei: Sobre</title>
-    <link rel="stylesheet" href="./style/form.css">
-    <script src="./scripts/form.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajei: Sobre</title>
+  <link rel="stylesheet" href="./styles/about.css">
+  <script src="./script/form.js" defer></script>
 </head>
 
 <body>
-    <div id="container">
-        <header>
-            <img src="./images/logo.png"
-                alt="avião de papel estilizado no centro, voando em meio a uma nuvem branca com detalhes em azul claro. Ao redor, há linhas curvas azuis que dão sensação de movimento e velocidade, além de estrelas amarelas, raios e formas vermelhas que deixam o desenho mais divertido e dinâmico. O estilo é moderno e cartunesco, transmitindo criatividade, aventura, comunicação e liberdade — lembrando viagens, mensagens ou exploração de novos lugares." />
-            <div class="toggle"></div>
-            <a class="link-do-cabecalho" href="./index.html">Viajei</a>
-            <a class="link-do-cabecalho" href="./about.html">Sobre</a>
-            <a class="link-do-cabecalho" href="./form.html">Compartilhe sua experiência</a>
-        </header>
+  <div id="container">
+    <header>
+      <nav>
+        <img src="./images/logo.png"
+          alt="A imagem mostra um avião de papel estilizado no centro, voando em meio a uma nuvem branca com detalhes em azul claro. Ao redor, há linhas curvas azuis que dão sensação de movimento e velocidade, além de estrelas amarelas, raios e formas vermelhas que deixam o desenho mais divertido e dinâmico. O estilo é moderno e cartunesco, transmitindo criatividade, aventura, comunicação e liberdade — lembrando viagens, mensagens ou exploração de novos lugares." />
+        <div class="toggle"></div>
+        <a class="link-do-cabecalho" href="./index.html">Viajei</a>
+        <a class="link-do-cabecalho" href="./about.html">Sobre</a>
+        <a class="link-do-cabecalho" href="./form.html">Go live!</a>
+      </nav>
+    </header>
 
-        <section>
-            <form id="post-form">
-                <label for="autor"> Autor: </label>
-                <input id="autor" type="text" name="autor" placeholder="Fulana de tal">
+    <main>
+      <form id="post-form">
+        <label for="autor"> Autor (ex.: Eloá Grigori): </label>
+        <input id="autor" type="text" name="autor" placeholder="Eloá Grigori">
 
-                <label for="titulo"> Título da história: </label>
-                <input id="titulo" type="text" name="titulo" placeholder="Prank">
+        <label for="titulo"> Título da história: </label>
+        <input id="titulo" type="text" name="titulo" placeholder="Como eu era antes de Você">
+      
+        <label for="titulo"> Email: </label>
+        <input id="titulo" type="email" name="email" placeholder="Eloá.Grigori00@example.com">
 
-                <label for="história"> História: </label>
-                <textarea id="historia" cols="50" rows="20" name="historia" placeholder="Que horas são? Garota eu não sei...">
-        </textarea>
+        <label for="historia"> História: </label>
+        <textarea id="historia" cols="50" rows="20" name="historia" placeholder="Meu coração é carnaval"></textarea>
 
-                <button type="submit"> Enviar </button>
+        <button type="submit"> Enviar </button>
+          
+      </form>
+    </main>
 
-            </form>
-        </section>
-
-        <footer>
-            <div id="historia"></div>
-        </footer>
-    </div>
+    <footer>
+      <div id="historias"></div>
+    </footer>
+  </div>
 </body>
 
 </html>

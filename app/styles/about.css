@@ -79,9 +79,8 @@ main a {
 @media (max-width: 600px) {
     header nav img {
         max-height: 80px;
-        }
     }
-
+}
     #container nav {
         position: relative;
         justify-content: space-between;
@@ -143,7 +142,7 @@ main a {
         bottom: 160px;
     }
 
-      #container nav.active a:nth-of-type(3) {
+    #container nav.active a:nth-of-type(3) {
         bottom: 220px;
         border-bottom: 2px solid #110038;
     }
