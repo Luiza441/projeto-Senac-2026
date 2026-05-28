@@ -89,8 +89,8 @@ main a {
 
     #container nav .toggle {
         display: block;
-        border-right: 2px solid #d4f8ff;
-        border-bottom: 2px solid #d4f8ff;
+        border-right: 2px solid #110038;
+        border-bottom: 2px solid #110038;
         transform: rotateZ(45deg);
         cursor: pointer;
         margin-top: -10px;

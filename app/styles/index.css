@@ -8,12 +8,14 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #d4f8ff;
+    align-items: center;
 }
 
 #container {
     width: 80%;
     height: 100%;
     margin: 0 auto;
+    align-items: center;
 }
 
 #container nav {
@@ -35,9 +37,9 @@ body {
 }
 
 .link-do-cabecalho {
-    margin-right: 15px;
+    margin-right: 10px;
     color: #110038;
-    text-decoration: none;
+    text-decoration:  none;
     font-variant: small-caps;
     font-weight: bold;
     font-size: 20pt;
@@ -66,7 +68,7 @@ main p {
 main a {
     color: #110038;          /* Muted, dark ink-brown */
     text-decoration: none;   /* Remove harsh default underline */
-    border-bottom: 1px solid #d4f8ff; /* Subtle, paper-colored underline */
+    border-bottom: 1px solid #110038; /* Subtle, paper-colored underline */
     padding-bottom: 2px;
     transition: all 0.2s ease;
     font-family: 'Georgia', serif;

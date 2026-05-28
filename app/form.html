@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Viajei: Sobre</title>
   <link rel="stylesheet" href="./styles/about.css">
-  <script src="./script/form.js" defer></script>
+  <script src="./script/menu.js"></script>
+  <script type="module" src="./script/form.js"></script>
 </head>
 
 <body>
@@ -39,11 +40,20 @@
         <button type="submit"> Enviar </button>
           
       </form>
-    </main>
-
-    <footer>
+       <footer>
       <div id="historias"></div>
     </footer>
+
+    </main>
+
+      <dialog id="modal">
+      <button autofocus>Fechar</button>
+      <div id="modal-content"></div>
+    </dialog>
+
+
+
+   
   </div>
 </body>
 
