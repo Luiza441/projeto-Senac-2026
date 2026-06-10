@@ -1,0 +1,2 @@
+from lampada import Lampada
+
