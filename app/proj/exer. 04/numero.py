@@ -1,0 +1,4 @@
+def verificar_sinal(numero):
+    if numero < 0:
+        raise ValueError("O número não pode ser negativo.")
+    
