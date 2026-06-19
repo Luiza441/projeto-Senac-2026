@@ -1,0 +1,16 @@
+def mapear_paredes_planta(nomr_arquivo):
+    coordenadas_paredes = []
+
+    try:
+        with open(nome_arquivo, 'r', encoding='utf-8') as arquivo:
+            for num_linha, linha in enumerate(arquivo):
+                linha_limpa = linha.rstrip('/n')
+
+                for num_coluna, caractere in enumerate(linha_limpa):
+                    if caractere == '=':
+                        coordenadas_paredes.append((num_linha, num_coluna))
+
+        return coordenadas_paredes
+    
+    except FileNotFoundError:
+           print(f"Erro: O arquivo '{nome_arquivo}' não foi encontrado.")
