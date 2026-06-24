@@ -3,10 +3,10 @@ name = "viajei_api"
 version = "0.1.0"
 description = "Esta é a API (application interface) do projeto Viajei"
 authors = [
-    {name = "Luiza Lima",email = "you@example.com"}
+    {name = "Luiza Lima",email = "iza.usinagem@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13, <4.0"
+requires-python = ">=3.13,<4.0"
 dependencies = [
     "fastapi[standard] (>=0.138.0,<0.139.0)"
 ]
@@ -28,11 +28,11 @@ dev = [
 [tool]
 [tool.ruff]
 line-length = 79
-extend-exclube = ['migrations']
+extend-exclude = ['migrations']
 
 [tool.ruff.lint]
 preview = true
-select = ['I'. 'F', 'E', 'W', 'PL', 'PT']
+select = ['I', 'F', 'E', 'W', 'PL', 'PT']
 
 [tool.ruff.format]
 preview = true
@@ -40,15 +40,16 @@ quote-style = 'double'
 
 [tool.pytest]
 pythonpath = ['.']
-addopts = ['-p', 'no:warnings', '--cov=viajei_api', '--cov-contexto=test']
+addopts = ['-p', 'no:warnings', '--cov=viajei_api', '--cov-context=test']
 
 [tool.typos.files]
-extend-exclube = [".md"]
+extend-exclude = ["*.md"]
+
 [tool.taskipy.tasks]
 lint = 'ruff check'
-pre_format = 'ruff check -- fix'
+pre_format = 'ruff check --fix'
 format = 'ruff format'
 run = 'fastapi dev viajei_api/app.py'
 pre_test = 'task lint'
 test = 'pytest -s -x -vv'
-post_test = 'coverage html --show-contex'
+post_test = 'coverage html --show-contexts'
