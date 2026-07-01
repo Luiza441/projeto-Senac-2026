@@ -1,7 +1,0 @@
-_pycache_
-.pytest_cache
-.ruff_cache
-v.env
-htmlcov
-poetry.lock
-.coverage

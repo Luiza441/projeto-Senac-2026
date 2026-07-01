@@ -1,1 +1,11 @@
 .env
+_pycache_
+.pytest_cache
+.ruff_cache
+.env
+htmlcov
+poetry.lock
+.coverage
+database.db
+.env
+*.html
