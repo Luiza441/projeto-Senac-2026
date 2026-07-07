@@ -1,4 +1,5 @@
-from viajei_api.schemas.user import User
+from pydantic import BaseModel
+
 
 class Story:
 
@@ -6,3 +7,4 @@ class Story:
     title:str
     email = User.email
     body:str
+
